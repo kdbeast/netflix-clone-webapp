@@ -6,7 +6,7 @@ import Banner from "./Banner.jsx";
 function App() {
   return (
     <div className="App">
-      <Banner fetchUrl={requests.fetchPopular} />
+      <Banner />
       <Row
         title="NETFLIX ORIGINALS"
         fetchUrl={requests.fetchNetflixOriginals}
